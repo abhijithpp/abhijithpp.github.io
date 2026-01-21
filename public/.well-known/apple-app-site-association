@@ -1,17 +1,16 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appID": "3RGL67FM32.com.sync.UniversalLinkTest",
-        "paths": [
-          "/invite/*"
-        ]
-      },
-      {
-        "appID": "9V34UGPY2M.com.sync.UniversalLinkTest",
-        "paths": [
-          "/invite/*"
+        "appIDs": [
+          "9V34UGPY2M.com.synchronoss.spc",
+          "NXDQ3VB6JD.com.synchronoss.cloudtest"
+        ],
+        "components": [
+          {
+            "/": "/example-invite-path/*",
+            "comment": "Invite deep links"
+          }
         ]
       }
     ]
